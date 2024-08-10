@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vladimirrodalyjoseph/Desktop/Calcul_Numeric/main/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002DEC, symSize: 0x210 }
+  - { offsetInCU: 0x50, offset: 0x50, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100002DEC, symSize: 0x210 }
+  - { offsetInCU: 0xEE, offset: 0xEE, size: 0x8, addend: 0x0, symName: _convert_to_binary_octal_hexadecimal, symObjAddr: 0x2D4, symBinAddr: 0x1000030C0, symSize: 0x2C0 }
+  - { offsetInCU: 0x18B, offset: 0x18B, size: 0x8, addend: 0x0, symName: _solve_linear_system, symObjAddr: 0x594, symBinAddr: 0x100003380, symSize: 0x508 }
+  - { offsetInCU: 0x345, offset: 0x345, size: 0x8, addend: 0x0, symName: _read_file, symObjAddr: 0xA9C, symBinAddr: 0x100003888, symSize: 0xA8 }
+  - { offsetInCU: 0x385, offset: 0x385, size: 0x8, addend: 0x0, symName: _display_menu, symObjAddr: 0xB44, symBinAddr: 0x100003930, symSize: 0x84 }
+  - { offsetInCU: 0x39A, offset: 0x39A, size: 0x8, addend: 0x0, symName: _save_to_file, symObjAddr: 0xBC8, symBinAddr: 0x1000039B4, symSize: 0x98 }
+...
